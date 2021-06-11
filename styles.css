@@ -1,0 +1,58 @@
+
+body {
+  background: linear-gradient(45deg, #0b4cd6, #025e28);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 50px;
+}
+
+h3 {
+    color: lavender;
+  margin: 10px;
+  width: 200px;
+  height: 40px;
+  overflow-y: auto;
+  padding-top: 20px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+}
+.header {
+    padding-left: 100px;
+    padding-top: 10px;
+    
+    margin-bottom: 50px;
+    overflow-y: auto;
+    width: 1700px;
+    background: rgba(255, 255, 255, 0.3);
+    height: 650px;
+    border-radius: 20px;
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+  }
+
+  h1{
+text-align: center;
+color: lavender;
+padding-left: 500px;
+padding-top: 50px;
+font-family: cursive;
+font-size: 80px;
+
+  }
